@@ -1,0 +1,10 @@
+[project]
+name = "fastapi-todo-backend"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "motor>=3.3.0",
+    "pymongo>=4.5.0",
+]
